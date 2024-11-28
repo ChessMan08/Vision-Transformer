@@ -1,0 +1,38 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+.DS_Store
+
+# Python notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorFlow checkpoints
+checkpoint/
+*.ckpt
+tmp/
+
+# Model save files
+*.h5
+*.pb
+
+# Dataset and large files
+data/
+*.tfrecords
+
+# Operating system files
+Thumbs.db
+.idea/
+
+# Debugger configurations
+.vscode/
+*.launch
